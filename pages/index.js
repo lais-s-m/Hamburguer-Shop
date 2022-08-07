@@ -1,11 +1,9 @@
-import Head from 'next/head';
+import React from "react";
 
-export default function LaunchPage() {
-  return (
-    <>
-      <Head>
-        <title>Bem-vindo à Burguer Kenzie!</title>
-      </Head>
-    </>
-  )
+import Login from "../components/Login";
+
+export default function LaunchPage (){
+        return(
+           <Login />
+        )
 }
